@@ -8,7 +8,7 @@ import org.exitsoft.exercises.entity.account.User;
 /**
  * 用户功能模块控制器
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 public class UserController {

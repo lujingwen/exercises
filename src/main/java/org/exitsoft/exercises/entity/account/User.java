@@ -3,7 +3,7 @@ package org.exitsoft.exercises.entity.account;
 /**
  * 用户实体类
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 public class User {

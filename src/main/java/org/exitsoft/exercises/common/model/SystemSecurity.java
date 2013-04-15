@@ -7,7 +7,7 @@ import org.exitsoft.exercises.entity.account.User;
 /**
  * 系统安全实体
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 public class SystemSecurity implements Serializable{

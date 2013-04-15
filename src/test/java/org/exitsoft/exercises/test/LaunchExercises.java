@@ -6,7 +6,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 /**
  * 启动jetty服务,运行后通过http://localhost:8087/exercises/来访问项目路径s
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 public class LaunchExercises {
