@@ -5,7 +5,7 @@ import org.exitsoft.exercises.common.model.SystemSecurity;
 /**
  * 系统变量工具类
  * 
- * @author lujingwen
+ * @author vincent
  *
  */
 public class SystemVariableUtils {

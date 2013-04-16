@@ -23,7 +23,7 @@
 	</context:component-scan>
 	
 	<!-- 当输入http://ip:port/项目名称/按下回车默认跳转到的controller -->
-	<mvc:view-controller path="/" view-name="redirect:/index"/>
+	<mvc:view-controller path="/" view-name="redirect:/login-view"/>
 	
 	<!-- 使用缓存mvc注解配置 -->
 	<mvc:annotation-driven>
@@ -57,6 +57,7 @@
                 <prop key="date_format">yyyy-MM-dd</prop>
                 <prop key="number_format">#.##</prop>
                 <prop key="defaultEncoding">UTF-8</prop>  
+                <prop key="auto_include">common/base-assign.html</prop> 
             </props>
         </property>
     </bean>

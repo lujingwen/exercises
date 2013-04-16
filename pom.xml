@@ -21,9 +21,23 @@
 		<freemarker.version>2.3.19</freemarker.version>
 		<jackson.version>2.1.2</jackson.version>
 		<jetty.version>7.6.8.v20121106</jetty.version>
+		<hibernate.version>4.1.9.Final</hibernate.version>
+		<mysql.connector.version>5.1.18</mysql.connector.version>
+		<ehcache.version>2.6.3</ehcache.version>
 	</properties>
 	
 	<dependencies>
+		<dependency>
+			<groupId>org.exitsoft</groupId>
+			<artifactId>exitsoft-common</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.exitsoft</groupId>
+			<artifactId>exitsoft-orm</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 		<!-- spring strat -->
 		<!-- spring aop -->
 		<dependency>
@@ -76,6 +90,51 @@
 		</dependency>
 		<!-- srping end -->
 
+		<!-- orm start -->
+		<!-- hibernate orm -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		
+		<!-- spring orm -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+		<!-- orm end -->
+		
+		<!-- ehcache start -->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache-core</artifactId>
+			<version>${ehcache.version}</version>
+		</dependency>
+		<!-- ehcache end -->
+			
 		<!-- commons start -->
 		<dependency>
 			<groupId>commons-dbcp</groupId>
