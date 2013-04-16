@@ -19,7 +19,7 @@ import org.exitsoft.exercises.entity.UniversallyUniqueIdentifier;
 /**
  * 组实体类
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 @Entity

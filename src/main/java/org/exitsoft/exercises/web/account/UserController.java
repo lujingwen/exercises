@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 用户功能模块控制器
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 @Controller

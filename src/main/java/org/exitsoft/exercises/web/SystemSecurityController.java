@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 系统安全功能模块控制器
  * 
- * @author vincent
+ * @author lujingwen
  *
  */
 @Controller
