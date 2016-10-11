@@ -15,7 +15,7 @@ public class SystemVariableUtils {
 
 	/**
 	 * 获取系统安全实体
-	 * 
+	 *     
 	 * @return {@link SystemSecurity}
 	 */
 	public static SystemSecurity getSystemSecurity() {
@@ -33,7 +33,7 @@ public class SystemVariableUtils {
 	
 	/**
 	 * 判断当前用户是否已经认证
-	 * 
+	 * ddd
 	 * @return ture代表已认证,false代表非认证
 	 */
 	public static boolean currentUserIsAuthenticated() {
